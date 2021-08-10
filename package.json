@@ -7,5 +7,9 @@
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=14"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "typescript": "^4.3.5"
   }
 }
