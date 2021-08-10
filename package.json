@@ -23,6 +23,12 @@
     "build": "tsc -p .",
     "clean": "[ ! -d './dist' ] || rm -rf ./dist",
     "rebuild": "yarn clean; yarn build",
-    "start:basic": "node ./dist/server.js"
+    "logs": "pm2 logs",
+    "monitor": "pm2 monitor",
+    "start:basic": "node ./dist/server.js",
+    "start:pm2:dev": "pm2 start ./dist/config/pm2/pm2.config.js --env development",
+    "start:pm2:prod": "pm2 start ./dist/config/pm2/pm2.config.js --env production",
+    "start:pm2": "yarn start:pm2:dev",
+    "start:pm2:logs": "yarn start:pm2; yarn logs"
   }
 }
