@@ -4,5 +4,8 @@
   "description": "tropical fruit algorithmic trading tool",
   "main": "dist/server.js",
   "author": "Michael Haan",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "engines": {
+    "node": ">=14"
+  }
 }
