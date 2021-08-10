@@ -1,0 +1,8 @@
+{
+  "name": "fruit-pal",
+  "version": "1.0.0",
+  "description": "tropical fruit algorithmic trading tool",
+  "main": "dist/server.js",
+  "author": "Michael Haan",
+  "license": "BSD-3-Clause"
+}
